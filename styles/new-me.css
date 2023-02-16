@@ -4,7 +4,7 @@
 }
 
 section{
-    margin: 200px 300px 0 300px;
+    margin: 0px 300px 180px 300px;
 }
 
 .section-title{
@@ -21,11 +21,14 @@ section{
     color: #444343;
 }
 
+/* BANNER STYLES */
+
 .banner{
     background-image: url('../images/banner/banner3.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 1000px;
+    margin-bottom: 180px;
 }
 
 .banner .banner-title{
@@ -64,16 +67,18 @@ section{
     font-size: 18px;
 }
 
+/* MY FAILURES SECTION */
+
 .failures{
     display: flex;
 }
 
 .failures-image{
     border-radius: 50%;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 .failures-discussion{
@@ -92,3 +97,33 @@ section{
 .section-desc-point .fa-check{
     margin-right: 12px;
 }
+
+/* MY PLANS SECTION */
+
+.my-plans .section-title{
+    margin: auto;
+}
+
+.my-all-plans{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-title{
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+.plan img{
+    text-align: center;
+}
+
+.plan-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.plan-title, .plan-desc{
+    text-align: center;
+}
+
