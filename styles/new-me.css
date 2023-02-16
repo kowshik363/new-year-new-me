@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+section{
+    margin: 200px 300px 0 300px;
+}
+
+.section-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.section-desc{
+    margin-bottom: 20px;
+}
+
+.section-desc, .section-desc-point{
+    color: #444343;
+}
+
+.banner{
+    background-image: url('../images/banner/banner3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+.banner .banner-title{
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFFFFF;
+}
+
+.banner .banner-content{
+    text-align: right;
+    padding: 200px 250px 0 0;
+}
+
+.banner .banner-content .banner-desc{
+
+    margin:30px 0 30px 1200px;
+    color: beige;
+}
+
+.banner .banner-content .banner-button{
+    height: 64px;
+    width: 160px;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 600px;
+    color: #2e4695;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.banner-desc{
+    font-size: 18px;
+}
+
+.failures{
+    display: flex;
+}
+
+.failures-image{
+    border-radius: 50%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+
+.failures-discussion{
+    margin: auto;
+    padding: 0 150px 0 150px;
+}
+
+.fa-check{
+    color: green;
+}
+
+.section-desc-point{
+    margin-bottom: 10px;
+}
+
+.section-desc-point .fa-check{
+    margin-right: 12px;
+}
