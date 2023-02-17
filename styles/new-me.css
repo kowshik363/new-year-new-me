@@ -15,6 +15,7 @@ section{
 
 .section-desc{
     margin-bottom: 20px;
+    line-height: 26px;
 }
 
 .section-desc, .section-desc-point{
@@ -101,7 +102,8 @@ section{
 /* MY PLANS SECTION */
 
 .my-plans .section-title{
-    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .my-all-plans{
@@ -109,13 +111,13 @@ section{
     justify-content: space-between;
 }
 
+.plan{
+    text-align: center;
+}
+
 .plan-title{
     font-size: 20px;
     font-weight: 700px;
-}
-
-.plan img{
-    text-align: center;
 }
 
 .plan-title{
@@ -127,10 +129,30 @@ section{
     text-align: center;
 }
 
+/* DETERMINATION SECTION */
+
+.my-determination{
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+}
+
+.determination-module{
+    margin: auto;
+}
+
+.determination-image img{
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
 /* CONTACT BANNER */
 
 .contact-banner{
-    background-image: url('../images/watch.png');
+    background: linear-gradient(to right, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px 0 100px 70px;
