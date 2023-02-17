@@ -200,7 +200,7 @@ footer{
     border: 1px solid #FFFFFF;
     border-radius: 5px;
     padding-left: 20px;
-    font-size: 15px;
+    font-size: 18px;
     width: 325px;
     height: 64px;
     background-color: #000000;
@@ -215,7 +215,8 @@ footer{
     color: #FFFFFF;
     height: 64px;
     width: 170px;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 700;
     padding-top: 10px;
     padding-bottom: 15px;
     margin-top: 20px;
